@@ -1,0 +1,15 @@
+.button {
+  font-size: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  border-color: #3498db;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
